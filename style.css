@@ -1,0 +1,102 @@
+*{
+}
+html{
+    height:100%;
+    background:rgb(255, 241, 7);
+}
+
+body{
+    overflow: hidden;
+    transition:0.3s;
+    padding:0;
+    margin:0;
+    text-align:center;
+    background:linear-gradient(90deg,rgba(255, 241, 7, 1) 0%,rgba(255, 115, 0, 1) 35%,rgba(255, 0, 245, 1) 100%);
+    min-height:100%;
+}
+form{
+    background:rgb(243, 240, 0);
+    background:linear-gradient(90deg,rgba(243 , 240 , 0, 1)37%,rgba(0,255,136,1)49%,rgba(255,0,241,1)92%);
+    text-align:center;
+    width:90%;
+    max-width:500px;
+    display:inline-block;
+    border-radius:10px;
+    box-shadow:0 0 10px #222222;
+    position:relative;
+}
+
+button,input{
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+    line-height:40px;
+    border-radius:10px;
+    border:none;
+    outline:none;
+    transition:0.4s;
+    width:90%;
+    text-align:center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+    background-color:white;
+    box-shadow:5px 5px 0px #000000;
+}
+
+button:hover{
+    transform:perspective(1px) scale(1.05) translateZ(0);
+    box-shadow:0 0 15px #22222277;
+}
+h3{
+    display:inline-block;
+    background-color:yellow;
+    box-shadow:0 0 10px black;
+    border-radius:50px;
+    width:50px;
+    height:50px;
+    line-height:50px;
+    position:absolute;
+    right:-5px;
+    top:-5px;
+    margin:0;
+    font-family: 'Russo One', sans-serif;
+    color:white;
+    text-shadow:0px 0px 10px #000000;
+}
+.toto{
+    left:-5px;
+}
+h1,form h2{
+    font-family: 'Russo One', sans-serif;
+    color:aqua;
+    text-shadow:5px 5px 0px #000000;
+}
+#levelTitle{
+    display:block;
+    color:aqua;
+    color:gold;
+    color:aqua;
+    color:gold;
+    color:aqua;
+    background-color:gold;
+    text-shadow:3px 3px 0px #000000;
+    border-radius:5px;
+    line-height:40px;
+    box-shadow:0 0 15px purple;
+    font-family: 'Russo One', sans-serif;
+    border:1px solid white;
+    left:20px;
+    top:20px;
+    text-align:center;
+    font-size:20px;
+    padding:0 10px ;
+    width:70%;
+    margin:30px auto 10px;
+}
+.levleButton{
+    width:80px;
+    display:inline-block;
+}
+#podskazka{
+    font-family: 'Russo One', sans-serif;
+}
